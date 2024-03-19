@@ -20,7 +20,7 @@ const ChapterIdPage = async ({
   
   if (!userId) {
     return redirect("/");
-  } 
+  }
 
   const {
     chapter,
